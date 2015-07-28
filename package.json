@@ -1,0 +1,36 @@
+{
+  "name": "contentserver",
+  "version": "1.0.0",
+  "description": "A content server",
+  "author": "atnap",
+  "contributors": [{
+  "name": "atnap",
+  "email": "atnap@"
+}],
+  "bin": {
+  "module-name": "./bin/atnap"
+},
+  "scripts": {
+    "test": "",
+    "start": "node app.js",
+    "prepublish": ""
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/atnap/contentserver.git"
+},
+  "bugs": {
+  "url": "https://github.com/atnap/contentserver.git/issues"
+},
+  "keywords": [
+  "atnap",
+  "content"
+],
+  "dependencies": {
+    "lodash": "*",
+    "express": "*"
+  },
+  "devDependencies": {
+  },
+  "license": "TODO"
+}
